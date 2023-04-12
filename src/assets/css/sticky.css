@@ -1,0 +1,11 @@
+.sticky-t {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.sticky-b{
+    position: fixed;
+    bottom: 0; 
+    width: 100%;
+}
