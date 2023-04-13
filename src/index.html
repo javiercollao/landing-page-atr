@@ -16,7 +16,8 @@
     <div class="sticky-t">
         <div class="alert alert-warning alert-dismissible mb-0 px-2 rounded-0 fade show" role="alert">
             <div class="container">
-                <strong>Holy guacamole!</strong> You should check in on some of those fields below.
+                <strong>Aprovecha!</strong> Solo por estos días, cupos disponibles para sesiones de entrenamiento de alto rendimiento en Concepción y Talcahuano.
+                <strong id="counter"></strong>
                 <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
             </div>
         </div>
@@ -120,12 +121,12 @@
 
 
 
-        <div class="p-5 mb-4 bg-body-tertiary d-flex vh-100">
+        <div class="p-3 mb-4 bg-body-tertiary d-flex vh-100 bg-hero" >
             <div class="container d-flex justify-content-center align-items-start flex-column">
-              <h1 class="display-5 fw-bold">Custom jumbotron</h1>
-              <p class="col-md-8 fs-4">Using a series of utilities, you can create this jumbotron, just like the one in previous versions of Bootstrap. Check out the examples below for how you can remix and restyle it to your liking.</p>
-              <button class="btn btn-primary btn-lg" type="button">Example button</button>
-            </div>
+              <h1 class="display-5 fw-bold text-light">¡Bienvenido!</h1>
+              <p class="col-md-6 fs-4 text-light">¿Estás listo para elevar tu nivel, disfrutar de la naturaleza y formar parte del mejor equipo de Trail Running en Concepción?</p>
+              <button class="btn btn-primary btn-lg" type="button">Quiero ser parte</button>
+            </div> 
         </div>
 
 
@@ -136,8 +137,10 @@
                 <div class="col-md-12">
                   <div class="row g-0 overflow-hidden flex-md-row mb-4 h-md-250 align-items-center">
                     <div class="col p-4 d-flex flex-column"> 
-                      <h3 class="mb-3">Featured post</h3> 
-                      <p class="card-text mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, voluptas eius suscipit repellendus excepturi, cum enim esse porro quas blanditiis eum omnis aut, at minima nesciunt laudantium vero cupiditate non.</p>
+                      <h3 class="mb-3 display-6 fw-bold">Inscríbete en nuestra academia y consigue mucho más que tu principal objetivo.</h3> 
+                      <p class="card-text mb-auto fs-4">
+                        Si eres un apasionado de los deportes al aire libre y la aventura, has llegado al lugar adecuado. En nuestra academia, no solo te enseñaremos las técnicas de running en montañas y senderos, sino que también podrás disfrutar de la naturaleza y formar parte de un equipo unido.
+                      </p>
                     </div>
                     <div class="col-md-4 d-flex justify-content-center">
                         <img class="w-100 " src="https://images.pexels.com/photos/2440024/pexels-photo-2440024.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="" srcset="">
@@ -158,8 +161,10 @@
                     </div>
                     
                     <div class="col p-4 d-flex flex-column"> 
-                      <h3 class="mb-3">Featured post</h3> 
-                      <p class="card-text mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, voluptas eius suscipit repellendus excepturi, cum enim esse porro quas blanditiis eum omnis aut, at minima nesciunt laudantium vero cupiditate non.</p>
+                      <h3 class="mb-3 display-6 fw-bold">Amo entrenar al aire libre y disfrutar de la naturaleza.</h3> 
+                      <p class="fs-4 mb-auto">
+                        Ofrecemos una variedad de clases de trail running para todos los niveles, desde principiantes hasta corredores avanzados. Nuestro profesor a cargo, Fabian Garnia, es un experto en carreras de montaña con más de 10 años de experiencia. Él te guiará a través de cada entrenamiento y te motivará para alcanzar tus objetivos.
+                      </p>
                     </div>
                     
                   </div>
@@ -170,16 +175,15 @@
 
 
         <div class="container px-4 py-5">
-          <h2 class="pb-2 border-bottom">Hanging icons</h2>
+          <h2 class="pb-2 fw-bold">Estamos enfocados en brindarte la mejor experiencia en entrenamiento físico y mental en la naturaleza. Te invitamos a descubrir los beneficios de unirte a nuestro equipo, donde te ofrecemos:</h2>
           <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
             <div class="col d-flex align-items-start">
               <div class="d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
                 <i class="bi bi-check-circle-fill"></i>
               </div>
               <div>
-                <h3 class="fs-2">Featured title</h3>
-                <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
-                
+                <h3 class="fs-2">Entrenamientos semi-personalizado</h3>
+                <p>12 clases mensuales en grupo reducido de Trail Running y/o Running, semi-personalizado, con correcciones individuales y focalizadas. Nuestros entrenamientos son diseñados para adaptarse a todos los niveles de experiencia, desde principiantes hasta atletas avanzados. Además, nuestras clases se realizan en entornos naturales únicos, lo que te permitirá disfrutar del aire fresco mientras trabajas en tu condición física.</p>
               </div>
             </div>
             <div class="col d-flex align-items-start">
@@ -187,9 +191,8 @@
                 <i class="bi bi-check-circle-fill"></i>
               </div>
               <div>
-                <h3 class="fs-2">Featured title</h3>
-                <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
-              
+                <h3 class="fs-2">Acondicionamiento físico</h3>
+                <p>12 clases mensuales de acondicionamiento físico en la naturaleza, enfocados en la pérdida de peso, fortalecimiento muscular, prevención de lesiones, entre otras. Nuestro equipo de profesionales altamente capacitados te guiará en la ejecución de ejercicios específicos que te ayudarán a alcanzar tus objetivos de manera efectiva y segura.</p>
               </div>
             </div>
             <div class="col d-flex align-items-start">
@@ -197,27 +200,78 @@
                 <i class="bi bi-check-circle-fill"></i>
               </div>
               <div>
-                <h3 class="fs-2">Featured title</h3>
-                <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
+                <h3 class="fs-2">Sesiones de Yoga</h3>
+                <p>12 clases mensuales de yoga en la naturaleza, meditación y relajación, a cargo de nuestra instructora de yoga (acreditación internacional). El yoga es una práctica complementaria al running y el acondicionamiento físico, ya que te ayuda a mejorar la flexibilidad, la fuerza y la concentración. También te permitirá liberar el estrés y la tensión acumulada en el cuerpo.</p>
+               
+              </div>
+            </div>
+
+
+            <div class="col d-flex align-items-start">
+              <div class="d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+                <i class="bi bi-check-circle-fill"></i>
+              </div>
+              <div>
+                <h3 class="fs-2">Evaluación y medición antropométrica.</h3>
+                <p>Evaluación y medición antropométrica es gratuita, a cargo de nuestra nutricionista deportiva. En nuestra academia, comprendemos la importancia de una alimentación equilibrada para el rendimiento deportivo. Es por eso que ofrecemos una evaluación y medición antropométrica gratuita para ayudarte a conocer tu composición corporal y recibir recomendaciones personalizadas para optimizar tu nutrición.</p>
+              </div>
+            </div>
+
+
+            <div class="col d-flex align-items-start">
+              <div class="d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+                <i class="bi bi-check-circle-fill"></i>
+              </div>
+              <div>
+                <h3 class="fs-2">Kinesiólogo</h3>
+                <p>Consultas y primera evaluación gratuita + evaluación biomecánica en terreno a cargo de nuestro kinesiólogo especialista. La prevención de lesiones es clave en cualquier deporte, especialmente en el Trail Running. Es por eso que nuestro equipo cuenta con un kinesiólogo especialista que te ayudará a prevenir y tratar lesiones, mediante evaluaciones y planes de entrenamiento específicos.</p>
+               
+              </div>
+            </div>
+
+
+
+            <div class="col d-flex align-items-start">
+              <div class="d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+                <i class="bi bi-check-circle-fill"></i>
+              </div>
+              <div>
+                <h3 class="fs-2">Flexibilidad</h3>
+                <p>En caso de no poder asistir a una clase, puedes recuperar en otro horario. También se te enviará la planificación detallada para que puedas realizar la sesión por tu cuenta. Queremos que aproveches al máximo tu tiempo y esfuerzo en nuestra academia, por lo que te brindamos la flexibilidad de recuperar las clases que no puedas asistir y la planificación detallada para que puedas continuar con tu entrenamiento incluso si no puedes asistir a una clase en particular.</p>
                
               </div>
             </div>
           </div>
         </div>
 
+
+        <div class="container px-4 py-5">
+          <h2 class="pb-2   fw-bold text-center">¡Comprueba si encajas en nuestro perfil ideal para la Academia de Trail Running!</h2>
+          <div class="row g-4 py-5 row-cols-1">
+            <div class=" d-flex align-items-start">
+              <div> 
+                <p class="fs-4">¿Eres una persona que busca mejorar su salud y bienestar a través del deporte? ¿Te gusta estar en contacto con la naturaleza y disfrutas de los desafíos al aire libre? Si es así, ¡entonces eres perfecto para nuestra Academia!
+                  No importa si eres principiante o ya tienes experiencia en running o trail running, aquí encontrarás un espacio para desafiarte a ti mismo y superar tus límites. Si te gusta entrenar en grupo y recibir atención personalizada y enfocada en tus necesidades, entonces ¡Somos la mejor opción para ti!
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
         <div class="position-relative overflow-hidden mb-0 text-center bg-body-tertiary d-flex justify-content-center align-items-center">
             <div class="col-md-5 position-absolute">
               <div class="container">
-                  <h1 class="display-4 fw-normal">Punny headline</h1>
-                  <p class="lead fw-normal">And an even wittier subheading to boot. Jumpstart your marketing efforts with this example based on Apple’s marketing pages.</p>
-                  <a class="btn btn-success" href="#">Coming soon</a>
+                  <h1 class="display-4 fw-normal">Quieres participar como principiante</h1>
+                  <p class="lead fw-normal">Te ofrecemos el plan mensual de 12 clases por tan solo <strong class="text-success fs-3">$20.000 CLP</strong>. Con este plan, tendrás acceso todos los beneficios segun tu objetivo.</p>
+                  <a class="btn btn-success" href="#">Quiero ser parte</a>
               </div>
             </div>
             <img class="img-banner-1" src="./assets/images/bussiness/subscribe.jpg" alt="" />
         </div>
 
         <footer class="d-flex mt-0 mb-5 p-5  border-top bg-dark" data-bs-theme="dark">
-            <div class="container d-flex flex-column justify-content-center align-items-center">
+            <div class="container mb-5 d-flex flex-column justify-content-center align-items-center">
                 <div class="col-md-12  d-flex flex-column text-center justify-content-center align-items-center">
                   <a href="/" class="mb-3 me-2 mb-md-0 logo text-body-secondary text-decoration-none lh-1">
                     ATR<span>Chile</span>
@@ -225,7 +279,7 @@
                   <span class="mb-3 mb-md-0 text-body-secondary">© 2023 Academia Trail Running</span>
                 </div>
             
-                <ul class="nav col-md-12 list-unstyled text-center d-flex justify-content-center">
+                <ul class="nav mb-5 col-md-12 list-unstyled text-center d-flex justify-content-center">
                   <li class="ms-3"><a class="text-body-secondary" href="#"><i class="bi bi-instagram"></i></a></li>
                   <li class="ms-3"><a class="text-body-secondary" href="#"><i class="bi bi-facebook"></i></a></li>
                 </ul>
@@ -233,8 +287,11 @@
         </footer>
 
         <div class="alert alert-warning alert-dismissible mb-0 px-2 rounded-0 sticky-b fade show" role="alert">
-            <div class="container">
-                <strong>Holy guacamole!</strong> You should check in on some of those fields below.
+            <div class="container d-flex flex-column align-items-center">
+                <p class="text-center">
+                  <strong>Quedan pocos cupos!</strong> Inscríbite en tu primera clase <strong>Gratis</strong>
+                </p>
+                <button class="btn btn-primary btn-lg w-fit" type="button">Me interesa</button>
             </div>
         </div>
     

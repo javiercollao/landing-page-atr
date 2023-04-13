@@ -11,7 +11,7 @@ function contador(contadorElemento) {
       const segundos = Math.floor((diferencia % (1000 * 60)) / 1000);
       
       // construir la cadena de texto del contador
-      let contadorTexto = `Quedan ${dias} días, ${horas} horas, ${minutos} minutos y ${segundos} segundos`;
+      let contadorTexto = `${dias} días, ${horas} horas, ${minutos} minutos y ${segundos} segundos`;
       
       // actualizar el elemento del contador en la página
       contadorElemento.textContent = contadorTexto;
@@ -24,7 +24,3 @@ function contador(contadorElemento) {
     }, 1000); // intervalo de 1 segundo
   }
   
-
- const contadorHTML = document.getElementById("counter")
-
- contador(contadorHTML)
