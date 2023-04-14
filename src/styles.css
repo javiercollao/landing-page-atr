@@ -7,7 +7,8 @@
 @import "./assets/css/banner.css";
 @import "./assets/css/alert.css";
 @import "./assets/css/hero.css";
- 
+@import "./assets/css/myHero.css";
+
 @import "./assets/css/components/prices.css";
 @import "./assets/css/components/horario.css";
 @import "./assets/css/components/separator.css";

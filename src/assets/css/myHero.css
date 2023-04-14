@@ -1,0 +1,54 @@
+#hero, .layer {
+	min-height: 100vh;
+}
+#hero {
+	height: 100vh;
+	overflow: hidden;
+	position: relative;
+	max-width: 1920px;
+	margin: 0 auto;
+}
+
+#hero::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 500px;
+    background: linear-gradient(to bottom, transparent, #0c0f16);
+}
+
+.layer {
+	background-position: bottom center;
+	background-size: auto;
+	background-repeat: no-repeat;
+	width: 100%; 
+	position: absolute;
+	z-index: -1;
+}
+
+.layer-bg {
+	background-image: url('./../images/aboveTheFold/layer0.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.layer-1 {
+	background-image: url('./../images/aboveTheFold/layer1.png');
+	background-position: left bottom;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.layer-2 {
+	background-image: url('./../images/logo/logo.png');
+	background-position: center;
+    background-size: 50%;
+    background-repeat: no-repeat;
+}
+
+.layer-3 {
+	background-color: #000;
+}
+
+ 
