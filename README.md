@@ -32,7 +32,7 @@ Modify the code as needed to suit your specific requirements
 
 ### Credits
 
-This project was created by Javier Collao as part of a frontend development course. Some images used in the hero section was sourced by ATRs CEO Fabian Garnia.
+This project was created by Javier Collao as part of a frontend development course. Some images used in the hero section was sourced by ATRs CEO Fabian Garnia. [You can see the demo here.](https://javiercollao.github.io/landing-page-atr/)
 
 ### License
 
